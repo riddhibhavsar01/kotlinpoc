@@ -73,6 +73,7 @@ class MainActivity : AppCompatActivity() {
                 ) {
 
                     Log.i("TAG", "Permission has been denied by user")
+                    Log.i("TAG", "Permission has been denied by user")
                 } else {
                     Log.i("TAG", "Permission has been granted by user")
                 }
