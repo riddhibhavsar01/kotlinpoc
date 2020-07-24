@@ -1,0 +1,26 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.map {
+    height: 100%;
+    width: 100%;
+}
+
+.ol-zoom {
+    top: 50%;
+    left: unset;
+    right: .5em;
+    transform: translateY(-50%);
+}
+
+.ol-rotate {
+    top: 40%;
+    right: .5em;
+    transition: opacity .25s linear, visibility 0s linear;
+    transform: translateY(-40%);
+}
